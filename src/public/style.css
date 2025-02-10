@@ -1,0 +1,21 @@
+
+:root {
+    --primary-color-green: #28CB8B;
+    --green-shade-1: #43A046;
+    --green-shade-2: #388E3B;
+    --green-shade-3: #237D31;
+    --green-shade-4: #1B5E1F;
+    --green-shade-5: #103E13;
+
+    --secondary-color-black: #263238;
+
+    --neutral-gray: #717171;
+    --neutral-D-gray: #4D4D4D;
+}
+
+nav {
+    font-family: 'Work Sans';
+    
+
+
+}
