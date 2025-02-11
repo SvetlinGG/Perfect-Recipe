@@ -11,11 +11,48 @@
 
     --neutral-gray: #717171;
     --neutral-D-gray: #4D4D4D;
+
+    --neutral-white: #FFFFFF;
 }
 
-nav {
-    font-family: 'Work Sans';
+.header-section {
+    background-color: #FFFFFF;
+    padding: 10px 60px 10px 80px;
+}
+
+.header-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
-
-
 }
+
+
+.class-container {
+    font-family: 'Work Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-container ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 30px 0 0;
+    list-style: none;
+    color: #4D4D4D;
+}
+a {
+    text-decoration: none;
+}
+.register-button {
+    background-color: #43A046;
+    color: #FFFFFF;
+    width: 133px;
+    height: 34px;
+}
+
+.logo {
+    height: 20px;
+}
+
