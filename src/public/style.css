@@ -13,6 +13,8 @@
     --neutral-D-gray: #4D4D4D;
 
     --neutral-white: #FFFFFF;
+    font-family: 'Work Sans';
+    padding: 10px;
 }
 
 .header-section {
@@ -37,24 +39,58 @@
 .class-container ul {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
     padding: 0 30px 0 0;
     list-style: none;
-    
 }
-a {
-    text-decoration: none;
-    
-}
+
 .register-button {
     background-color: #43A046;
     color: #FFFFFF;
-    width: 133px;
-    height: 34px;
+    border-radius: 3px;
+    padding: 0 25px 0 25px;
+    height: 36px;
+}
+a {
+    text-decoration: none;
+    color: #717171;
+    font-size: 17px;
 }
 
-
 .logo {
+    
     height: 20px;
+}
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.main-section-content {
+    border: 1px solid red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+    padding-left: 100px;
+    width: 460px;
+    height: 140px;
+
+}
+h1 {
+    border: 1px solid blue;
+    font-size: 44px;
+    color: #4D4D4D;
+    text-decoration: solid;
+}
+span {
+    color: #43A046;
+}
+p {
+    font-size: 12px;
+    color: #717171;
+}
+img {
+    width: 460px;
+    padding-top: 100px;
 }
 
